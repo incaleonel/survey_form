@@ -1,0 +1,71 @@
+body{
+    font-family:Bold, 'Times New Roman', Times, serif;
+    text-align: center;
+    background: linear-gradient(rgba(129, 99, 212,0.70),rgba(22, 82, 131, 0.65)) ,url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center center;
+}
+
+#survey-form{
+    background-color: rgb(16, 6, 47);
+    max-width: 500px;
+    height: auto;
+    padding:40px;
+    border-radius: 6px;
+    opacity: 0.8;
+}
+#survey-form, #survey-form div{
+
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+#title{
+    margin-bottom:0;
+    margin-top: 2%;
+
+}
+#description{
+    
+    font-size: 19px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black ;
+}
+
+label, p{
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
+}
+
+#name, #email, #age{
+    font-size: 1em;
+    height: 2.2em;
+    margin-bottom: 1.2em;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#comment{
+    height: 5em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+}
+
+#submit{
+    height: 2em;
+    background-color: rgb(97, 243, 104);
+    border-radius: 5px;
+}
+
+select{
+    font-size: 1.1em;
+    padding: 0.4em;
+}
